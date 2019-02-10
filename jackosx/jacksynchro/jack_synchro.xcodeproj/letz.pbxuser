@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = 4BEB670709FD26FE004DC2D9 /* JackSynchro */;
+		activeTarget = 8DD76F620486A84900D96B5E /* JackSynchro */;
+		codeSenseManager = 4BEB671509FD2706004DC2D9 /* Code sense */;
+		executables = (
+			4BEB670709FD26FE004DC2D9 /* JackSynchro */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					63,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 270805115;
+			PBXWorkspaceStateSaveDate = 270805115;
+		};
+		perUserProjectItems = {
+			4BE41227102428800011D99C /* PBXBookmark */ = 4BE41227102428800011D99C /* PBXBookmark */;
+			4BE4122D10242E480011D99C /* PBXTextBookmark */ = 4BE4122D10242E480011D99C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4BEB671409FD2706004DC2D9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4B6333F505B9362E0077FAF8 /* TJackSynchro.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 6720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 5991}, {1102, 729}}";
+			sepNavWindowFrame = "{{254, 72}, {1141, 858}}";
+		};
+	};
+	4B6333F705B936320077FAF8 /* TJackSynchro.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 1750}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 517}, {1102, 729}}";
+			sepNavWindowFrame = "{{170, -147}, {1141, 858}}";
+		};
+	};
+	4B880E4505BE9FC9001EC386 /* TransportMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {932, 6384}}";
+			sepNavSelRange = "{8451, 15}";
+			sepNavVisRect = "{{0, 3935}, {932, 547}}";
+			sepNavWindowFrame = "{{409, 46}, {971, 676}}";
+		};
+	};
+	4BE41227102428800011D99C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4B6333F705B936320077FAF8 /* TJackSynchro.h */;
+	};
+	4BE4122D10242E480011D99C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4B6333F705B936320077FAF8 /* TJackSynchro.h */;
+		name = "TJackSynchro.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2079;
+		vrLoc = 1033;
+	};
+	4BEB670709FD26FE004DC2D9 /* JackSynchro */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = JackSynchro;
+		sourceDirectories = (
+		);
+	};
+	4BEB671409FD2706004DC2D9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	4BEB671509FD2706004DC2D9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DD76F620486A84900D96B5E /* JackSynchro */ = {
+		activeExec = 0;
+		executables = (
+			4BEB670709FD26FE004DC2D9 /* JackSynchro */,
+		);
+	};
+}

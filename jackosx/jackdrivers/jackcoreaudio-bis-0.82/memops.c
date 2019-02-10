@@ -15,7 +15,7 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-    $Id$
+    $Id: memops.c,v 1.1 2004/06/16 14:48:57 elementocaotico Exp $
 */
 
 #define _ISOC9X_SOURCE  1

@@ -15,7 +15,7 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-    $Id$
+    $Id: memops.h,v 1.1 2004/01/30 17:00:21 elementocaotico Exp $
 */
 
 #ifndef __jack_memops_h__

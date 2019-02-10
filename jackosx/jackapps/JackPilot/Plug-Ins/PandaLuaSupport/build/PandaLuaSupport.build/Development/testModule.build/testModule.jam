@@ -1,0 +1,100 @@
+# Jamfile for configuration Development of target "testModule" of project "PandaLuaSupport"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project "PandaLuaSupport"
+export deferred ANTICIPATED_BUILT_PRODUCTS_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred ANTICIPATED_TARGET_BUILD_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred BUILD_STYLE = "$(CONFIGURATION)" ;
+export deferred CONFIGURATION = Development ;
+export deferred CONFIGURATION_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION) ;
+export deferred CONFIGURATION_TEMP_DIR = $(PROJECT_TEMP_DIR)/$(CONFIGURATION) ;
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred GROUP = letz ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_DIR = /Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/PandaLuaSupport ;
+export deferred PROJECT_FILE_PATH = /Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/PandaLuaSupport/PandaLuaSupport.xcodeproj ;
+export deferred PROJECT_NAME = PandaLuaSupport ;
+export deferred PROJECT_TEMP_DIR = $(OBJROOT)/$(PROJECT_NAME).build ;
+export deferred SRCROOT = /Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/PandaLuaSupport ;
+export deferred TARGET_TEMP_DIR = $(CONFIGURATION_TEMP_DIR)/$(TARGET_NAME).build ;
+export deferred TEMP_DIR = $(TARGET_TEMP_DIR) ;
+export deferred USER = letz ;
+
+# Project-wide settings for project "PandaLuaSupport"
+
+# User-defined project-wide settings for project "PandaLuaSupport"
+
+# Build Settings for target "testModule"
+
+export deferred _INFO_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/Info.plist" ;
+export deferred _PKGINFO_FILE_PATH = "$(TARGET_TEMP_DIR)/PkgInfo" ;
+export deferred _PBDEVELOPMENT_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/pbdevelopment.plist" ;
+
+# Implicitly computed build settings for target "testModule"
+export deferred CLONE_HEADERS = NO ;
+export deferred PFE_FILE_C_DIALECTS = c ;
+export deferred SKIP_INSTALL = YES ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = testModule ;
+
+# User-defined build settings for target "testModule"
+export deferred COPY_PHASE_STRIP = NO ;
+export deferred DYLIB_COMPATIBILITY_VERSION = 1 ;
+export deferred DYLIB_CURRENT_VERSION = 1 ;
+export deferred FRAMEWORK_SEARCH_PATHS =  ;
+export deferred GCC_DYNAMIC_NO_PIC = NO ;
+export deferred GCC_ENABLE_FIX_AND_CONTINUE = YES ;
+export deferred GCC_GENERATE_DEBUGGING_SYMBOLS = YES ;
+export deferred GCC_OPTIMIZATION_LEVEL = 0 ;
+export deferred HEADER_SEARCH_PATHS =  ;
+export deferred LIBRARY_SEARCH_PATHS = "/Volumes/Archivio HD/Development/xpanda/Panda/Modules/PandaLua/PLua" ;
+export deferred LIBRARY_STYLE = BUNDLE ;
+export deferred OPTIMIZATION_CFLAGS = -O0 ;
+export deferred OTHER_CFLAGS =  ;
+export deferred OTHER_LDFLAGS = -bundle -undefined suppress -flat_namespace ;
+export deferred OTHER_REZFLAGS =  ;
+export deferred PRODUCT_NAME = PandaLuaSupport ;
+export deferred SECTORDER_FLAGS =  ;
+export deferred USE_GCC3_PFE_SUPPORT = NO ;
+export deferred WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas ;
+export deferred WRAPPER_EXTENSION = jpplugin ;
+export deferred ZERO_LINK = YES ;
+
+# Target "testModule"
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginBundle "<PandaLuaSupport>PandaLuaSupport.jpplugin" ;
+
+# Headers
+HEADERS = ;
+ProcessHeaders "<PandaLuaSupport>PandaLuaSupport.jpplugin" : "$(HEADERS)" : "" : BPTag000 ;
+
+# Resources
+English.lproj/InfoPlist.strings_REGION = English ;
+RESOURCES = English.lproj/InfoPlist.strings ;
+ProcessResources "<PandaLuaSupport>PandaLuaSupport.jpplugin" : "$(RESOURCES)" : BPTag000 : BPTag001 ;
+
+# Sources
+SOURCES = main.c ;
+ProcessSources "<PandaLuaSupport>PandaLuaSupport.jpplugin" : "$(SOURCES)" : BPTag001 : BPTag002 ;
+
+# Frameworks & Libraries
+/Library/Frameworks/Panda.framework_ATTRIBUTES = AbsolutePath ;
+/Library/Frameworks/PandaLua.framework_ATTRIBUTES = AbsolutePath ;
+FRAMEWORKS_AND_LIBRARIES =
+	/Library/Frameworks/Panda.framework
+	/Library/Frameworks/PandaLua.framework ;
+ProcessFrameworksAndLibraries "<PandaLuaSupport>PandaLuaSupport.jpplugin" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag002 : BPTag003 ;
+
+# Rez Files
+REZ_FILES = ;
+ProcessRezFiles "<PandaLuaSupport>PandaLuaSupport.jpplugin" : "$(REZ_FILES)" : BPTag003 : BPTag004 ;
+
+include $(TEMP_DIR)/HeaderDependencies.jam ;
+EndBundle "<PandaLuaSupport>PandaLuaSupport.jpplugin" ;
+

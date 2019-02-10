@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ringbuffer.c,v 1.1 2004/02/01 14:16:00 elementocaotico Exp $
  * ringbuffer.c
  * Ring Buffer utility..
  *

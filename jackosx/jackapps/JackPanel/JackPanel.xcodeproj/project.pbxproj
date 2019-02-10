@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BED54B70A02100300D8ACCA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		4BED54B80A02100300D8ACCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		4BED54B90A02100300D8ACCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF55E42098C6A6F0086AE6F /* Localizable.strings */; };
+		4BED54BA0A02100300D8ACCA /* overlay.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA2B050B098E7C3F000064DA /* overlay.tiff */; };
+		4BED54BB0A02100300D8ACCA /* underlay.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA2B050C098E7C3F000064DA /* underlay.tiff */; };
+		4BED54BC0A02100300D8ACCA /* gradient.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA2B056A098E92B1000064DA /* gradient.tiff */; };
+		4BED54BD0A02100300D8ACCA /* icon_driver_input.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA2B067A098E9BE3000064DA /* icon_driver_input.tiff */; };
+		4BED54BE0A02100300D8ACCA /* icon_driver_output.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA2B067B098E9BE3000064DA /* icon_driver_output.tiff */; };
+		4BED54BF0A02100300D8ACCA /* resize.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2B0690098EA006000064DA /* resize.png */; };
+		4BED54C00A02100300D8ACCA /* minus.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA20045A0991C3CC00C628EB /* minus.tiff */; };
+		4BED54C10A02100300D8ACCA /* plus.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA20045B0991C3CC00C628EB /* plus.tiff */; };
+		4BED54C20A02100300D8ACCA /* port_multiple.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA81280C09951E8E001324C3 /* port_multiple.tiff */; };
+		4BED54C30A02100300D8ACCA /* port_single.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EA81280D09951E8E001324C3 /* port_single.tiff */; };
+		4BED54C40A02100300D8ACCA /* Jack.icns in Resources */ = {isa = PBXBuildFile; fileRef = EACD3267099C2BC70020E255 /* Jack.icns */; };
+		4BED54C60A02100300D8ACCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		4BED54C70A02100300D8ACCA /* JPJack.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55CF5098C4FBC0086AE6F /* JPJack.m */; };
+		4BED54C80A02100300D8ACCA /* JPView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF55D06098C51A90086AE6F /* JPView.m */; };
+		4BED54C90A02100300D8ACCA /* JPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA5AD68098D4C990036633E /* JPClient.m */; };
+		4BED54CA0A02100300D8ACCA /* JPMultiport.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA5AD6D098D4CA60036633E /* JPMultiport.m */; };
+		4BED54CB0A02100300D8ACCA /* JPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA916BF098F9FE500742365 /* JPConnection.m */; };
+		4BED54CC0A02100300D8ACCA /* JPJack_ClientEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA200AFA0992625200C628EB /* JPJack_ClientEditor.m */; };
+		4BED54CD0A02100300D8ACCA /* JPTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA81307D09956ED2001324C3 /* JPTipView.m */; };
+		4BED54CF0A02100300D8ACCA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -43,6 +66,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4BED54D00A02100300D8ACCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EA85B4560992C01A00CA19A5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,6 +95,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* JackPanel_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JackPanel_Prefix.pch; sourceTree = "<group>"; };
 		4B92954A09EBF26400269A47 /* AFExtensions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFExtensions.xcodeproj; path = AFExtensions/AFExtensions.xcodeproj; sourceTree = SOURCE_ROOT; };
+		4BED54D50A02100300D8ACCA /* JackPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BED54D70A02100300D8ACCA /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* JackPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA20045A0991C3CC00C628EB /* minus.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = minus.tiff; sourceTree = "<group>"; };
@@ -97,6 +131,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4BED54CE0A02100300D8ACCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BED54CF0A02100300D8ACCA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* JackPanel.app */,
+				4BED54D50A02100300D8ACCA /* JackPanel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +230,7 @@
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				EAF55E42098C6A6F0086AE6F /* Localizable.strings */,
 				EACD3267099C2BC70020E255 /* Jack.icns */,
+				4BED54D70A02100300D8ACCA /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -229,6 +273,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4BED54B50A02100300D8ACCA /* JackPanel copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BED54D20A02100300D8ACCA /* Build configuration list for PBXNativeTarget "JackPanel copy" */;
+			buildPhases = (
+				4BED54B60A02100300D8ACCA /* Resources */,
+				4BED54C50A02100300D8ACCA /* Sources */,
+				4BED54CE0A02100300D8ACCA /* Frameworks */,
+				4BED54D00A02100300D8ACCA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JackPanel copy";
+			productInstallPath = "$(HOME)/Applications";
+			productName = JackPanel;
+			productReference = 4BED54D50A02100300D8ACCA /* JackPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8D1107260486CEB800E47090 /* JackPanel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "JackPanel" */;
@@ -268,6 +331,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* JackPanel */,
+				4BED54B50A02100300D8ACCA /* JackPanel copy */,
 			);
 		};
 /* End PBXProject section */
@@ -283,6 +347,27 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4BED54B60A02100300D8ACCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BED54B70A02100300D8ACCA /* MainMenu.nib in Resources */,
+				4BED54B80A02100300D8ACCA /* InfoPlist.strings in Resources */,
+				4BED54B90A02100300D8ACCA /* Localizable.strings in Resources */,
+				4BED54BA0A02100300D8ACCA /* overlay.tiff in Resources */,
+				4BED54BB0A02100300D8ACCA /* underlay.tiff in Resources */,
+				4BED54BC0A02100300D8ACCA /* gradient.tiff in Resources */,
+				4BED54BD0A02100300D8ACCA /* icon_driver_input.tiff in Resources */,
+				4BED54BE0A02100300D8ACCA /* icon_driver_output.tiff in Resources */,
+				4BED54BF0A02100300D8ACCA /* resize.png in Resources */,
+				4BED54C00A02100300D8ACCA /* minus.tiff in Resources */,
+				4BED54C10A02100300D8ACCA /* plus.tiff in Resources */,
+				4BED54C20A02100300D8ACCA /* port_multiple.tiff in Resources */,
+				4BED54C30A02100300D8ACCA /* port_single.tiff in Resources */,
+				4BED54C40A02100300D8ACCA /* Jack.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +408,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4BED54C50A02100300D8ACCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BED54C60A02100300D8ACCA /* main.m in Sources */,
+				4BED54C70A02100300D8ACCA /* JPJack.m in Sources */,
+				4BED54C80A02100300D8ACCA /* JPView.m in Sources */,
+				4BED54C90A02100300D8ACCA /* JPClient.m in Sources */,
+				4BED54CA0A02100300D8ACCA /* JPMultiport.m in Sources */,
+				4BED54CB0A02100300D8ACCA /* JPConnection.m in Sources */,
+				4BED54CC0A02100300D8ACCA /* JPJack_ClientEditor.m in Sources */,
+				4BED54CD0A02100300D8ACCA /* JPTipView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +468,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4BED54D30A02100300D8ACCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = "/Volumes/Documents/jackosx/jackapps/JackPanel/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					Jack,
+				);
+				PRODUCT_NAME = JackPanel;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		4BED54D40A02100300D8ACCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = "/Volumes/Documents/jackosx/jackapps/JackPanel/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					Jack,
+				);
+				PRODUCT_NAME = JackPanel;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,6 +585,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4BED54D20A02100300D8ACCA /* Build configuration list for PBXNativeTarget "JackPanel copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BED54D30A02100300D8ACCA /* Debug */,
+				4BED54D40A02100300D8ACCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "JackPanel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,138 @@
+# Jamfile for configuration Development of target "TestPlugin" of project "NetJack"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project "NetJack"
+export deferred ANTICIPATED_BUILT_PRODUCTS_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred ANTICIPATED_TARGET_BUILD_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred BUILD_STYLE = "$(CONFIGURATION)" ;
+export deferred CONFIGURATION = Development ;
+export deferred CONFIGURATION_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION) ;
+export deferred CONFIGURATION_TEMP_DIR = $(PROJECT_TEMP_DIR)/$(CONFIGURATION) ;
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred GROUP = letz ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_DIR = /Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack ;
+export deferred PROJECT_FILE_PATH = /Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack/NetJack.xcodeproj ;
+export deferred PROJECT_NAME = NetJack ;
+export deferred PROJECT_TEMP_DIR = $(OBJROOT)/$(PROJECT_NAME).build ;
+export deferred SRCROOT = /Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack ;
+export deferred TARGET_TEMP_DIR = $(CONFIGURATION_TEMP_DIR)/$(TARGET_NAME).build ;
+export deferred TEMP_DIR = $(TARGET_TEMP_DIR) ;
+export deferred USER = letz ;
+
+# Project-wide settings for project "NetJack"
+
+# User-defined project-wide settings for project "NetJack"
+
+# Build Settings for target "TestPlugin"
+
+export deferred _INFO_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/Info.plist" ;
+export deferred _PKGINFO_FILE_PATH = "$(TARGET_TEMP_DIR)/PkgInfo" ;
+export deferred _PBDEVELOPMENT_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/pbdevelopment.plist" ;
+
+# Implicitly computed build settings for target "TestPlugin"
+export deferred CLONE_HEADERS = NO ;
+export deferred PFE_FILE_C_DIALECTS = c objective-c ;
+export deferred SKIP_INSTALL = YES ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = TestPlugin ;
+
+# User-defined build settings for target "TestPlugin"
+export deferred COPY_PHASE_STRIP = NO ;
+export deferred DYLIB_COMPATIBILITY_VERSION = 1 ;
+export deferred DYLIB_CURRENT_VERSION = 1 ;
+export deferred FRAMEWORK_SEARCH_PATHS =  ;
+export deferred GCC_DYNAMIC_NO_PIC = NO ;
+export deferred GCC_ENABLE_FIX_AND_CONTINUE = NO ;
+export deferred GCC_GENERATE_DEBUGGING_SYMBOLS = YES ;
+export deferred GCC_OPTIMIZATION_LEVEL = 0 ;
+export deferred HEADER_SEARCH_PATHS =  ;
+export deferred LIBRARY_SEARCH_PATHS = "/Volumes/Archivio HD/Development/jackosx/TO PUT/JackPilot/Plug-Ins/jack-udp" "/Volumes/Archivio HD/Development/xpanda/Panda/libs" ;
+export deferred LIBRARY_STYLE = BUNDLE ;
+export deferred OPTIMIZATION_CFLAGS = -O3 ;
+export deferred OTHER_CFLAGS =  ;
+export deferred OTHER_LDFLAGS = -bundle -undefined suppress -flat_namespace ;
+export deferred OTHER_REZFLAGS =  ;
+export deferred PRODUCT_NAME = NetJack ;
+export deferred SECTORDER_FLAGS =  ;
+export deferred USE_GCC3_PFE_SUPPORT = NO ;
+export deferred WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas ;
+export deferred WRAPPER_EXTENSION = jpmodule ;
+export deferred ZERO_LINK = NO ;
+
+# Target "TestPlugin"
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginBundle "<NetJack>NetJack.jpmodule" ;
+
+# Headers
+"/Volumes/Archivio HD/Development/xpanda/libNetPanda/NetPanda.h_ATTRIBUTES" = AbsolutePath ;
+HEADERS =
+	JPPlugin.h
+	Jack_udp.h
+	"/Volumes/Archivio HD/Development/xpanda/libNetPanda/NetPanda.h" ;
+ProcessHeaders "<NetJack>NetJack.jpmodule" : "$(HEADERS)" : "" : BPTag000 ;
+
+# Resources
+English.lproj/InfoPlist.strings_REGION = English ;
+English.lproj/NetJack.nib_REGION = English ;
+RESOURCES =
+	English.lproj/InfoPlist.strings
+	PkgInfo
+	English.lproj/NetJack.nib ;
+ProcessResources "<NetJack>NetJack.jpmodule" : "$(RESOURCES)" : BPTag000 : BPTag001 ;
+
+# Sources
+interface.c_ATTRIBUTES = ;
+SOURCES =
+	interface.c
+	my_plugin.m
+	Jack_udp.m ;
+ProcessSources "<NetJack>NetJack.jpmodule" : "$(SOURCES)" : BPTag001 : BPTag002 ;
+
+# Frameworks & Libraries
+/System/Library/Frameworks/Cocoa.framework_ATTRIBUTES = AbsolutePath ;
+/System/Library/Frameworks/AppKit.framework_ATTRIBUTES = AbsolutePath ;
+/System/Library/Frameworks/Foundation.framework_ATTRIBUTES = AbsolutePath ;
+/Library/Frameworks/Jack.framework_ATTRIBUTES = AbsolutePath ;
+"/Volumes/Archivio HD/Development/xpanda/Panda/libs/libNetPanda.a_ATTRIBUTES" = AbsolutePath ;
+/Library/Frameworks/Panda.framework_ATTRIBUTES = AbsolutePath ;
+FRAMEWORKS_AND_LIBRARIES =
+	/System/Library/Frameworks/Cocoa.framework
+	/System/Library/Frameworks/AppKit.framework
+	/System/Library/Frameworks/Foundation.framework
+	/Library/Frameworks/Jack.framework
+	"/Volumes/Archivio HD/Development/xpanda/Panda/libs/libNetPanda.a"
+	/Library/Frameworks/Panda.framework ;
+ProcessFrameworksAndLibraries "<NetJack>NetJack.jpmodule" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag002 : BPTag003 ;
+
+# Rez Files
+REZ_FILES = ;
+ProcessRezFiles "<NetJack>NetJack.jpmodule" : "$(REZ_FILES)" : BPTag003 : BPTag004 ;
+
+# Copy Files
+COPY_FILES = PkgInfo ;
+COPYFILES_DESTINATION_PATH = "$(TARGET_BUILD_DIR)/NetJack.jpmodule/Contents" ;
+ProcessCopyFiles "<NetJack>NetJack.jpmodule" : "$(COPY_FILES)" : BPTag004 : BPTag005 ;
+
+# Copy Files
+COPY_FILES = English.lproj/Localizable.strings ;
+COPYFILES_DESTINATION_PATH = "$(TARGET_BUILD_DIR)/NetJack.jpmodule/Contents/Resources/English.lproj" ;
+ProcessCopyFiles "<NetJack>NetJack.jpmodule" : "$(COPY_FILES)" : BPTag005 : BPTag006 ;
+
+# Copy Files
+COPY_FILES =
+	Italian.lproj/InfoPlist.strings
+	Italian.lproj/Localizable.strings
+	Italian.lproj/NetJack.nib ;
+COPYFILES_DESTINATION_PATH = "$(TARGET_BUILD_DIR)/NetJack.jpmodule/Contents/Resources/Italian.lproj" ;
+ProcessCopyFiles "<NetJack>NetJack.jpmodule" : "$(COPY_FILES)" : BPTag006 : BPTag007 ;
+
+include $(TEMP_DIR)/HeaderDependencies.jam ;
+EndBundle "<NetJack>NetJack.jpmodule" ;
+

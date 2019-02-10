@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 089C1673FE841209C02AAC07 /* TestPlugin */;
+		codeSenseManager = 4BF041680B91897F005C2FAE /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 194087294;
+			PBXWorkspaceStateSaveDate = 194087294;
+		};
+		sourceControlManager = 4BF041670B91897F005C2FAE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C1673FE841209C02AAC07 /* TestPlugin */ = {
+		activeExec = 0;
+	};
+	08FB77B2FE8417CDC02AAC07 /* interface.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 966}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 234}, {922, 732}}";
+			sepNavWindowFrame = "{{38, 51}, {961, 861}}";
+		};
+	};
+	4BF041670B91897F005C2FAE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	4BF041680B91897F005C2FAE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B22C795305C94A0500888525 /* Jack_udp.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 732}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {922, 732}}";
+			sepNavWindowFrame = "{{61, 30}, {961, 861}}";
+		};
+	};
+	B22C795405C94A0500888525 /* Jack_udp.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 2926}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 2194}, {922, 732}}";
+			sepNavWindowFrame = "{{84, 9}, {961, 861}}";
+		};
+	};
+}

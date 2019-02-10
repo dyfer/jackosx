@@ -1,5 +1,5 @@
 /*
-* $Id$
+* $Id: ringbuffer.c,v 1.4 2009/03/24 15:11:37 letz Exp $
 * ringbuffer.c
 * Ring Buffer utility..
 *

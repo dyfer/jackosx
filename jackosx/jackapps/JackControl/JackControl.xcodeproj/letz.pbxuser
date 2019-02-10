@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeBuildStyle = 06F27B30FFEEEFEF11CA0E56 /* Development */;
+		activeTarget = 8D202CE80486D31800D8A456 /* Jack Control */;
+		codeSenseManager = 4BED549D0A020F3000D8ACCA /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					246,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 167910077;
+			PBXWorkspaceStateSaveDate = 167910077;
+		};
+		perUserProjectItems = {
+			4BED554D0A0242C400D8ACCA /* PBXBookmark */ = 4BED554D0A0242C400D8ACCA /* PBXBookmark */;
+			4BED55520A0268C700D8ACCA /* PBXTextBookmark */ = 4BED55520A0268C700D8ACCA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4BED549C0A020F3000D8ACCA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4BED549C0A020F3000D8ACCA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	4BED549D0A020F3000D8ACCA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4BED554D0A0242C400D8ACCA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EA91A366098A6E4E006930DF /* JCPreferencePane.m */;
+	};
+	4BED55520A0268C700D8ACCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EA91A366098A6E4E006930DF /* JCPreferencePane.m */;
+		name = "JCPreferencePane.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1226;
+		vrLoc = 0;
+	};
+	8D202CE80486D31800D8A456 /* Jack Control */ = {
+		activeExec = 0;
+	};
+	EA91A366098A6E4E006930DF /* JCPreferencePane.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1208, 9114}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1043, 617}}";
+			sepNavWindowFrame = "{{130, 0}, {1082, 746}}";
+		};
+	};
+}

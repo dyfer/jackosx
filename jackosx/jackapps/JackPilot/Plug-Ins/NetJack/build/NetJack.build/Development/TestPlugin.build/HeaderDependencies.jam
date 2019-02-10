@@ -1,0 +1,12 @@
+rule DefineHeaderDependencies
+{
+	INCLUDES "$(PROJECT_DIR)/interface.c" : "/Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack/JPPlugin.h" ;
+	INCLUDES "$(PROJECT_DIR)/my_plugin.m" : "/Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack/JPPlugin.h" ;
+	INCLUDES "$(PROJECT_DIR)/my_plugin.m" : "/Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack/Jack_udp.h" ;
+	INCLUDES "/Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack/Jack_udp.h" : "/usr/local/include/Jack/jack.h" ;
+	INCLUDES "$(PROJECT_DIR)/Jack_udp.m" : "/Volumes/Documents/jackosx/jackapps/JackPilot/Plug-Ins/NetJack/Jack_udp.h" ;
+	INCLUDES "$(PROJECT_DIR)/Jack_udp.m" : "/usr/include/unistd.h" ;
+}
+
+DefineHeaderDependencies "<NetJack>NetJack.jpmodule" ;
+

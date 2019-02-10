@@ -659,6 +659,7 @@
 			isa = PBXProject;
 			buildConfigurationList = 4B4F3D7309E2D5E100D2EC22 /* Build configuration list for PBXProject "JackPilot" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,

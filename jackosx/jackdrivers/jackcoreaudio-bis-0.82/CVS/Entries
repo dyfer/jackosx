@@ -1,0 +1,12 @@
+/AudioRender.cpp/1.1/Wed Jun 16 14:48:56 2004//
+/AudioRender.h/1.1/Wed Jun 16 14:48:56 2004//
+/AudioRenderBridge.cpp/1.1/Wed Jun 16 14:48:56 2004//
+/AudioRenderBridge.h/1.1/Wed Jun 16 14:48:56 2004//
+/README/1.1/Wed Jun 16 14:48:56 2004//
+/config.h/1.1/Wed Jun 16 14:48:57 2004//
+/coreaudio_driver.c/1.1/Wed Jun 16 14:48:57 2004//
+/coreaudio_driver.h/1.1/Wed Jun 16 14:48:57 2004//
+/mach_port.h/1.1/Wed Jun 16 14:48:57 2004//
+/memops.c/1.1/Wed Jun 16 14:48:57 2004//
+/memops.h/1.1/Wed Jun 16 14:48:57 2004//
+D/jack_coreaudio.xcode////
